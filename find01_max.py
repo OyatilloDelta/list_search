@@ -5,5 +5,13 @@ def find_max(data):
         data: list of numbers
     returns: maximum number in the list
     """
-    return 0
+    max=data[0]
+    for i in range(len(data)):
+        if data[i]>max:
+            max=data[i]
+    
+
+    
+    return max
+print(find_max([1,3,4,5,6,7,8]))
     
